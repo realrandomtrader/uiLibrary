@@ -47,7 +47,7 @@ const TableData = ({ columns, tree, handleChange, handleBlur }: PackageData) => 
     setIsEditable({ id: id, editable: editable })
   }
 const closeHandler = () =>{
-  alert()
+
   setIsEditable({ id: null, editable: "" })
 }
 
