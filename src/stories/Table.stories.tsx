@@ -3,7 +3,10 @@ import { ComponentStory, ComponentMeta } from '@storybook/react';
 
 export default{
      title:"Table",
-     component:TableData
+     component:TableData,
+     argTypes: {handleChange: { action: 'handleChange' },
+     handleBlur: { action: 'handleBlur' }
+ },
 } 
 
 const Template: ComponentStory<typeof TableData> = args =><TableData {...args} />

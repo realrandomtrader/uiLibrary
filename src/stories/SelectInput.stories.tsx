@@ -3,7 +3,10 @@ import { ComponentStory, ComponentMeta } from '@storybook/react';
 
 export default{
     title: 'SelectInput',
-    component:SelectInput
+    component:SelectInput,
+    argTypes: {handleClick: { action: 'handleClose' },
+    onClose: { action: 'onClose' }
+ },
 }
 
 const Template: ComponentStory<typeof SelectInput> = args => <SelectInput {...args} />;
