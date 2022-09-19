@@ -1,0 +1,12 @@
+.dz-calendar {
+    width: 296px;
+    height: 354px;
+  
+    .dz-calendar-content {
+      padding: 0 8px 8px;
+    }
+  }
+  
+  @import "variables";
+  @import "header";
+  @import "table";
